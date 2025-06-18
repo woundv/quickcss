@@ -1,0 +1,73 @@
+@import url('https://raw.githubusercontent.com/LuSaffi/VenCordstuff/refs/heads/main/CSS/%5BOLD_UI%5DcutoffFixes.css');
+@import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css');
+
+.visual-refresh section[aria-label="User area"] {
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);;
+    left: var(--custom-guild-list-width);
+    bottom: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+.visual-refresh nav:has([data-list-id="guildsnav"]) {
+  margin-bottom: unset;
+}
+
+.winButtons_c38106.winButtonsWithDivider_c38106 {
+    display: none !important;
+}
+
+.subtitleContainer_f75fb0 .toolbar__9293f {
+    display: flex;
+    margin-left: auto !important;
+    margin-right: -170px !important;
+}
+
+.button__85643[aria-label="Help"] {
+    display: none !important;
+}
+
+.subtitleContainer_f75fb0 .upperContainer__9293f {
+    display: flex !important;
+    flex-grow: 1 !important;
+}
+
+a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.com/badge-icons/4f33c4a9c64ce221936bd256c356f91f.png"] {
+    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png") !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.com/badge-icons/4f33c4a9c64ce221936bd256c356f91f.png"] {
+    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png") !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.com/badge-icons/4514fab914bdbfb4ad2fa23df76121a6.png"] {
+    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png") !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.com/badge-icons/2895086c18d5531d499862e41d1155a6.png"] {
+    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png") !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.com/badge-icons/0334688279c8359120922938dcb1d6f8.png"] {
+    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png") !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.tooltipContainer__1ns9L:has(.tooltipWordmarkContainer__1v41H) {
+    padding: initial;
+    & img, h1, h2, .tooltipWordmarkContainer__1v41H { display: none; }
+
+    & .tooltipDescription__7b37b {
+        color: inherit !important;
+        font: inherit;
+        margin: inherit;
+    }
+}
