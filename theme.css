@@ -17,6 +17,10 @@
     display: none !important;
 }
 
+.title_c38106 {
+    display: none !important;
+}
+
 .subtitleContainer_f75fb0 .toolbar__9293f {
     display: flex;
     margin-left: auto !important;
@@ -56,6 +60,12 @@ a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.c
 }
 
 a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.com/badge-icons/0334688279c8359120922938dcb1d6f8.png"] {
+    content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png") !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.com/badge-icons/0d61871f72bb9a33a7ae568c1fb4f20a.png"] {
     content: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png") !important;
     width: 20px !important;
     height: 20px !important;
