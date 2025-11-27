@@ -94,10 +94,6 @@ a[href="https://discord.com/settings/premium"] img[src="https://cdn.discordapp.c
     }
 }
 
-.wrapper__44b0c svg.mask__44b0c foreignObject {
-    transform: translateX(1px);
-}
-
 div[class*="wrapper_"] > svg > circle {
     display: none;
 }
